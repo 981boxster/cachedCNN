@@ -1,3 +1,6 @@
+import numpy as np
+from scipy.spatial import distance
+
 def get_len_row(array):
     try:
         array.shape[1]
