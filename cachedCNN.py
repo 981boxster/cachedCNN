@@ -33,8 +33,8 @@ def cache_update(tensor, conv, result_class):
         my_cache_flag[conv] = 1
     elif(my_cache_flag[conv] == 1): #
         num_cached_class = get_len_row(my_cache[conv]) # number of rows (=number of cached classes)
-        cached_classes = my_cache[conv][:,0:1] # separate 클래스 column만 따로 뺌
-        if (result_class in cached_classes): #분리한 클래스 column에 result class가 들어있으면
+        cached_classes = my_cache[conv][:,0:1]
+        if (result_class in cached_classes): 
             index_class = np.where(cached_classes == result_class) 
             index_class = index_class[0][0]
             feat_new = feat_vector
@@ -70,7 +70,7 @@ def cache_search(tensor, conv):
     
     i = 0
     num_cached_classes = get_len_row(my_cache[conv]) # number of cached classes
-    my_feat = get_feat_gabor(tensor) # Input Feature Vector
+    my_feat = get_feat_gabor(tensor) # input feature vector
     cached_dists = np.zeros(num_cached_classes) # cached distances
     my_dists = np.zeros(num_cached_classes) # distance between input feat vector and cached feat vector
     calced_diff_dists = np.zeros(num_cached_classes)
