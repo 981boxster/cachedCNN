@@ -1,4 +1,4 @@
-# cachedCNN
+Cached CNN
 This is a python implementation of cached convolutional neural networks.
 
 # YOLOv2 Tiny with Cached CNN
