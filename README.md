@@ -5,8 +5,8 @@ This is a python implementation of cached convolutional neural networks.
 
 <img src="https://github.com/981boxster/cachedCNN/blob/master/results/yolov2%2Bcache_conv6_num3.gif">
 
-Device: Jetson Tx2
-Cached layer: Conv6
+Device: Jetson Tx2<br>
+Cached layer: Conv6<br>
 Number of cached classes: 3
 
 # citation
