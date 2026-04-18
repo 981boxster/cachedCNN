@@ -12,5 +12,6 @@ Number of cached classes: 3
 # citation
 If you find this work useful in your research, please cite:
     
-    K. Park and D.-H. Kim, “Accelerating Image Classification using Feature Map Similarity in Convolutional Neural Networks,” Applied Sciences, vol. 9, no. 1, p. 108, 2019.
+    K. Park, J. Kim, and H. S. Kim, “Quantifying the control lever displacement of construction equipment via QR code detection,” Measurement, vol. 258, part B, 2026. 
+    https://doi.org/10.1016/j.measurement.2025.119111
     
