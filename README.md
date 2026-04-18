@@ -12,6 +12,6 @@ Number of cached classes: 3
 # citation
 If you find this work useful in your research, please cite:
     
-    K. Park, D.-H. Kim, "Accelerating Image Classification using Feature Map Similarity in Convolutional Neural Networks,” Applied Sciences, vol. 9, issue 1, 2019.
+    K. Park, D.-H. Kim, "Accelerating image classification using feature map similarity in convolutional neural networks,” Applied Sciences, vol. 9, issue 1, 2019.
     Doi: https://doi.org/10.3390/app9010108
     
